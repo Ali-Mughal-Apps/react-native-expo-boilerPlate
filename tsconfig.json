@@ -3,7 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "baseUrl": ".",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
+    "ignoreDeprecations": "6.0",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,

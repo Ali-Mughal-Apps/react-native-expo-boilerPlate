@@ -30,14 +30,14 @@
   "submit": {
     "production": {
       "ios": {
-        "appleId": "matt@investwizz.co.uk",
+        "appleId": "ali@apps.co.pk",
         "appleTeamId": "9JWLAL36JJ",
         "ascAppId": "6751441486"
       }
     },
     "dev": {
       "ios": {
-        "appleId": "matt@investwizz.co.uk",
+        "appleId": "ali@apps.co.pk",
         "appleTeamId": "9JWLAL36JJ",
         "ascAppId": "6755527632"
       }

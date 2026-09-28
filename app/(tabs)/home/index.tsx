@@ -76,7 +76,7 @@ const HomeScreen = () => {
           ))}
           {!items.length && (
             <Text style={{ color: colors.textSecondary }}>
-              Tap "Add" to create your first item.
+              Tap &quot;Add&quot; to create your first item.
             </Text>
           )}
         </View>

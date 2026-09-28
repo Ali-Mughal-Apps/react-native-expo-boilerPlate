@@ -13,11 +13,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   orientation: 'portrait',
   icon: './assets/images/icon.png', // Expo logo
   userInterfaceStyle: 'automatic',
-  splash: {
-    image: './assets/images/splash.png',
-    resizeMode: 'contain',
-    backgroundColor: '#6366F1',
-  },
   ios: {
     ...config.ios,
     supportsTablet: true,
@@ -38,7 +33,17 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     output: 'static',
     favicon: './assets/images/favicon.png',
   },
-  plugins: ['expo-router'],
+  plugins: [
+    'expo-router',
+    [
+      'expo-splash-screen',
+      {
+        image: './assets/images/splash.png',
+        resizeMode: 'contain',
+        backgroundColor: '#6366F1',
+      },
+    ],
+  ],
   experiments: {
     ...config.experiments,
     typedRoutes: true,

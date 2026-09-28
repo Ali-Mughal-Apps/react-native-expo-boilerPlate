@@ -3,7 +3,7 @@ import {
   DarkTheme,
   DefaultTheme,
   ThemeProvider as NavigationThemeProvider,
-} from '@react-navigation/native';
+} from 'expo-router/react-navigation';
 import {
   Outfit_300Light,
   Outfit_400Regular,

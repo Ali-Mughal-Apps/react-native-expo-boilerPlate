@@ -33,7 +33,7 @@ export const StatusBarProvider: React.FC<{
   return (
     <StatusBarContext.Provider value={{ backgroundColor, iconStyle, setStatusBar }}>
       {children}
-      <StatusBar style={iconStyle} translucent backgroundColor={backgroundColor} />
+      <StatusBar style={iconStyle} />
     </StatusBarContext.Provider>
   );
 };
